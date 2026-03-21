@@ -37,7 +37,7 @@ test.pdf
 # =========================
 # Google Cloud Credentials
 # =========================
-*.json
+
 !package.json
 !package-lock.json
 
