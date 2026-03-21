@@ -1,0 +1,75 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+.venv/
+.env/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+*.env
+
+# =========================
+# PDF / Excel test files
+# =========================
+*.pdf
+*.xlsx
+*.xls
+final.xlsx
+test.pdf
+
+# =========================
+# Google Cloud Credentials
+# =========================
+*.json
+!package.json
+!package-lock.json
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Windows
+# =========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+*.code-workspace
+
+# =========================
+# PyCharm / JetBrains
+# =========================
+.idea/
+
+# =========================
+# Pytest / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
