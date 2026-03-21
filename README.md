@@ -6,6 +6,10 @@
 
 ---
 
+## Discord Server
+
+Let's discuss together - https://discord.gg/bp2Mz72s
+
 ## Features
 
 - **Smart PDF routing** — detects native vs. scanned PDFs and picks the right pipeline automatically
