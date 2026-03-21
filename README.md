@@ -11,6 +11,7 @@
 - **Smart PDF routing** — detects native vs. scanned PDFs and picks the right pipeline automatically
 - **Native PDF pipeline** — uses geometric line/edge detection for high-accuracy table extraction from machine-generated PDFs
 - **Scanned PDF pipeline** — OCR-powered extraction for image-based or scanned documents
+- **Text based table extraction** — Text based table extraction for borderless tables
 - **Auto-correction** — per-page orientation and skew correction before extraction
 - **Excel output** — clean `.xlsx` output preserving table structure
 
@@ -91,7 +92,7 @@ By default this converts `test.pdf` → `final.xlsx`. Edit `connection.py` to pa
 
 ## Requirements
 
-- Python 3.10+
+- Python 3.10.8
 - Dependencies listed in `requirements.txt`
 - `pytesseract` + Tesseract OCR installed on your system
 
@@ -112,11 +113,9 @@ Copy `.env.example` to `.env` and fill in the values you need:
 TESSERACT_PATH=path\Tesseract-OCR\tesseract.exe
 
 # Google Cloud Vision (optional — improves scanned PDF accuracy)
-# If omitted, the scanned pipeline falls back to PaddleOCR + Tesseract
+# If needed, you can add google vision api for improved accuracy
 GOOGLE_APPLICATION_CREDENTIALS=path/to/service-account.json
 ```
-
-This project works entirely without cloud credentials using Tesseract OCR and PaddleOCR as the fallback for scanned PDFs.
 
 ---
 
