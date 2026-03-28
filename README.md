@@ -6,9 +6,7 @@
 
 ---
 
-## Discord Server
 
-Let's discuss together - https://discord.gg/bp2Mz72s
 
 ## Features
 
