@@ -1,4 +1,4 @@
-# Copyright (c) 2024 Bhanusri mattey
+# Copyright (c) 2026 Bhanusri mattey
 # Licensed under the Business Source License 1.1
 # See LICENSE file in the project root for details.
 # Commercial use prohibited until 2030-03-01
