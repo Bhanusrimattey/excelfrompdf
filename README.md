@@ -2,7 +2,7 @@
 
 > Convert PDF tables to Excel — automatically, accurately, and for free.
 
-**excelfrompdf** is an open-source Python/FastAPI web service that extracts tabular data from PDF files and converts it to structured `.xlsx` spreadsheets. It intelligently detects whether a PDF is native (text-based) or scanned, and routes it through the appropriate extraction pipeline automatically.
+**excelfrompdf** is an open-source code that extracts tabular data from PDF files and converts it to structured `.xlsx` spreadsheets. It intelligently detects whether a PDF is native (text-based) or scanned, and routes it through the appropriate extraction pipeline automatically.
 
 ---
 
