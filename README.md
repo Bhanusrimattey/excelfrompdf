@@ -4,6 +4,10 @@
 
 **excelfrompdf** is an open-source code that extracts tabular data from PDF files and converts it to structured `.xlsx` spreadsheets. It intelligently detects whether a PDF is native (text-based) or scanned, and routes it through the appropriate extraction pipeline automatically.
 
+For better extraction pipeline check out these apis on apyhub:
+
+https://apyhub.com/providers/flowdocs
+
 ---
 
 
